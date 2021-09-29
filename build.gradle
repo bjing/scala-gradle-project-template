@@ -47,6 +47,7 @@ dependencies {
     implementation "com.typesafe.scala-logging:scala-logging_${scalaVersion}:3.9.4"
 
     testImplementation "org.scalatest:scalatest_${scalaVersion}:3.1.1"
+    testRuntimeOnly "com.vladsch.flexmark:flexmark-profile-pegdown:0.36.8"
 }
 
 tasks.withType(ScalaCompile) {
