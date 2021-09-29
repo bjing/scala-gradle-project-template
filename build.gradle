@@ -15,8 +15,8 @@ ext {
     scalaVersion = '2.13'
     catsVersion = '2.6.1'
     catsEffectVersion = '2.5.4'
-    circeVersion = '0.14.1'
-    pureConfigVersion = '0.16.0'
+//    circeVersion = '0.14.1'
+//    pureConfigVersion = '0.16.0'
 }
 
 repositories {
@@ -34,17 +34,17 @@ dependencies {
     kindProjectorPlugin group: 'org.typelevel', name: "kind-projector_${scalaVersionFull}", version: '0.13.2'
     betterMonadicForPlugin group: 'com.olegpy', name: "better-monadic-for_${scalaVersion}", version: '0.3.1'
 
-    implementation "com.typesafe:config:1.4.1"
-    implementation "com.github.pureconfig:pureconfig_${scalaVersion}:${pureConfigVersion}"
+//    implementation "com.typesafe:config:1.4.1"
+//    implementation "com.github.pureconfig:pureconfig_${scalaVersion}:${pureConfigVersion}"
 
     implementation "org.typelevel:cats-core_${scalaVersion}:${catsVersion}"
     implementation "org.typelevel:cats-effect_${scalaVersion}:${catsEffectVersion}"
 
-    implementation "io.circe:circe-core_${scalaVersion}:${circeVersion}"
-    implementation "io.circe:circe-parser_${scalaVersion}:${circeVersion}"
-    implementation "io.circe:circe-generic_${scalaVersion}:${circeVersion}"
+//    implementation "io.circe:circe-core_${scalaVersion}:${circeVersion}"
+//    implementation "io.circe:circe-parser_${scalaVersion}:${circeVersion}"
+//    implementation "io.circe:circe-generic_${scalaVersion}:${circeVersion}"
 
-    implementation "com.typesafe.scala-logging:scala-logging_${scalaVersion}:3.9.4"
+//    implementation "com.typesafe.scala-logging:scala-logging_${scalaVersion}:3.9.4"
 
     testImplementation "org.scalatest:scalatest_${scalaVersion}:3.1.1"
     testRuntimeOnly "com.vladsch.flexmark:flexmark-profile-pegdown:0.36.8"
